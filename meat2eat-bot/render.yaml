@@ -1,9 +1,0 @@
-services:
-  - type: web
-    name: meat2eat-bot
-    runtime: python
-    buildCommand: ""
-    startCommand: "python app.py"
-    envVars:
-      - key: PORT
-        value: 10000
